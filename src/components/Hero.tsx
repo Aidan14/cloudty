@@ -1,4 +1,4 @@
-import product from '../assets/product.png';
+import cloud from '../assets/cloud.png';
 
 export function Hero() {
   return (
@@ -28,9 +28,9 @@ export function Hero() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-contain object-center rounded scale-75"
             alt="hero"
-            src={product}
+            src={cloud}
           />
         </div>
       </div>
